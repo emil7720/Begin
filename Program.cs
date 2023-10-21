@@ -25,7 +25,6 @@ namespace Starts
         {
             Console.WriteLine(GetSuit(Suits.Wands));
             Console.WriteLine(GetSuit(Suits.Coins));
-            Console.WriteLine(GetSuit(Suits.Cups));
             Console.WriteLine(GetSuit(Suits.Swords));
         }
         private static string GetSuit(Suits suit)
